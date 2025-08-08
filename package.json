@@ -1,0 +1,36 @@
+{
+  "name": "code-roast",
+  "displayName": "Code Roast",
+  "description": "Every time you save, get roasted about your code quality.",
+  "version": "0.0.1",
+  "author": "dhananjayaDev",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dhananjayaDev/code-roast.git"
+  },
+  "engines": {
+    "vscode": "^1.50.0"
+  },
+  "activationEvents": [
+    "*"
+  ],
+  "main": "extension.js",
+  "contributes": {
+    "configuration": {
+      "type": "object",
+      "title": "Code Roast Configuration",
+      "properties": {
+        "codeRoast.enableRoast": {
+          "type": "boolean",
+          "default": true,
+          "description": "Enable or disable the roast messages on save."
+        }
+      }
+    }
+  },
+  "scripts": {
+    "test": "echo \"No tests yet\""
+  },
+  "dependencies": {}
+}

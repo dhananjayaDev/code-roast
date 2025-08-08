@@ -1,0 +1,16 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+
+# Build output
+dist/
+build/
+
+# VS Code specific
+.vscode/
+
+# Environment variables
+.env
+
+# OS generated files
+.DS_Store
