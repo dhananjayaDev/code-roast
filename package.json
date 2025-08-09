@@ -1,5 +1,6 @@
 {
-  "name": "code-roast",
+  "name": "code-roast-extension",
+  "publisher": "dhananjayaDev",
   "displayName": "Code Roast",
   "description": "Every time you save, get roasted about your code quality.",
   "version": "0.0.1",
@@ -13,7 +14,8 @@
     "vscode": "^1.50.0"
   },
   "activationEvents": [
-    "*"
+    "onStartupFinished",
+    "onCommand:code-roast.roast"
   ],
   "main": "extension.js",
   "contributes": {
